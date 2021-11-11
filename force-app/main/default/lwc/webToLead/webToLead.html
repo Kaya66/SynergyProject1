@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title="Web to Lead">
+        <lightning-button label="Create new Lead?" slot="actions"></lightning-button>
+    <div class="slds-p-horizontal_small">
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+        <input type=hidden name="oid" value="00D5f000005tPwW">
+        <input type=hidden name="retURL" value="">
+    
+        <label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+    
+        <label for="last_name">Last Name</label><input style="margin-left: 1px;" id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+    
+        <label for="phone">Phone</label><input style="margin-left: 26px;" id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+    
+        <label for="email">Email</label><input style="margin-left: 32px;" id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    
+        <label for="city">City</label><input style="margin-left: 42px;" id="city" maxlength="40" name="city" size="20" type="text" /><br>
+    
+        <label for="state">State</label><input style="margin-left: 35px;" id="state" maxlength="20" name="state" size="20" type="text" /><br> Product Interest:<select id="00N5f00000JYebO" name="00N5f00000JYebO" title="Product Interest">
+            <option value="">--None--</option>
+            <option value="GC1000 series">GC1000 series</option>
+            <option value="GC5000 series">GC5000 series</option>
+            <option value="GC3000 series">GC3000 series</option>
+    </select><br>
+    
+        <input type="submit" name="submit">
+    
+    </form>
+</div>
+</lightning-card>
+</template>
