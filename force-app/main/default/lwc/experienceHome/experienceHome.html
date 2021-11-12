@@ -1,0 +1,13 @@
+<template>
+    <template if:true={ShowButtons}>
+    <c-button-pannel onbuttonclick={handleClickLead} onbuttonclick2={handleClickCase}></c-button-pannel>
+    </template>
+
+    <template if:true={CreateLead}>
+        <c-web-to-lead></c-web-to-lead>
+    </template>
+    <template if:true={CreateCase}>
+        <c-web-to-case></c-web-to-case>
+    </template>
+
+</template>

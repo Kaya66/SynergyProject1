@@ -1,11 +1,10 @@
 <template>
     <lightning-card title="Web to Lead">
-        <lightning-button label="Create new Lead?" slot="actions"></lightning-button>
     <div class="slds-p-horizontal_small">
     <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
         <input type=hidden name="oid" value="00D5f000005tPwW">
-        <input type=hidden name="retURL" value="">
+        <input type=hidden name="retURL" value="https://www.purrpartners.org/wp-content/uploads/2018/05/Thankyou-cat.jpg">
     
         <label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
     
