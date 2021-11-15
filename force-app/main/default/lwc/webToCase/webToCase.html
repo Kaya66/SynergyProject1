@@ -1,23 +1,24 @@
 <template>
-
+    <lightning-card title="Create a case">
     <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
     
         <input type=hidden name="orgid" value="00D5f000005tPwW">
         <input type=hidden name="retURL" value="https://www.purrpartners.org/wp-content/uploads/2018/05/Thankyou-cat.jpg">
-    
-        <label for="name">Contact Name</label><input style="margin-left: 15px;" id="name" maxlength="80" name="name" size="20" type="text" /><br>
-    
-        <label for="email">Email</label><input style="margin-left: 70px;" id="email" maxlength="80" name="email" size="20" type="text" /><br>
-    
-        <label for="phone">Phone</label><input style="margin-left: 64px;" id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
-    
-        <label for="subject">Subject</label><input style="margin-left: 57px;" id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
-    
-        <label for="description">Description</label><textarea style="margin-left: 33px;" name="description"></textarea><br>
-    
+    <br>
+        <label style="float: left;" for="name">Contact Name</label><input style="float: right; width: 200px;" id="name" maxlength="80" name="name" size="20" type="text" /><br>
+    <br>
+        <label style="float: left;" for="email">Email</label><input style="float: right; width: 200px;" id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    <br>
+        <label style="float: left;" for="phone">Phone</label><input style="float: right; width: 200px;" id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+    <br>
+        <label style="float: left; margin-top: 5px;" for="subject">Subject</label><input style="float: right; width: 200px;" id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+    <br>
+        <label style="float: left; margin-top: 25px;" for="description">Description</label><textarea style="float: right; width: 200px;" name="description"></textarea><br>
+    <br>
         <input type="hidden" id="external" name="external" value="1" /><br>
-    
-        <input type="submit" name="submit">
+    <br>
+    <lightning-button type="submit" name="submit" label="Submit Case">Submit Case</lightning-button>
     
     </form>
+</lightning-card>
 </template>

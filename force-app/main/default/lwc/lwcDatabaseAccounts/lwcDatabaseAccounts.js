@@ -9,5 +9,4 @@ export default class LwcDatabaseAccounts extends LightningElement {
     data = [];
     columns = [];
 
-
 }
