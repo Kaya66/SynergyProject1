@@ -1,7 +1,6 @@
 public with sharing class createOppsFromAcc {
     public static void createOppsFromAcc(List<account> newAcc) {
         List<Opportunity> newOps = new List<Opportunity>();
-        List<Account> existingAcc = [SELECT Name FROM Account];
         date currentDatePlus = date.today();
         
 
