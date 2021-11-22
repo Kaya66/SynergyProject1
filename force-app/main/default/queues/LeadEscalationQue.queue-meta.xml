@@ -3,10 +3,7 @@
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>LeadEscalationQue</name>
     <queueMembers>
-        <users>
-            <user>buser@r.com</user>
-            <user>cuser@r.com</user>
-        </users>
+
     </queueMembers>
     <queueSobject>
         <sobjectType>Lead</sobjectType>

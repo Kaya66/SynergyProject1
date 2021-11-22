@@ -16,10 +16,8 @@
     <types>
         <members>CaseQue</members>
         <members>Escalation_Que</members>
-        <members>ExecQue</members>
         <members>LeadEscalationQue</members>
         <members>LeadQue</members>
-        <members>Manager_Que</members>
         <name>Queue</name>
     </types>
 

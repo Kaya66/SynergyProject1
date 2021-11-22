@@ -3,9 +3,7 @@
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>LeadQue</name>
     <queueMembers>
-        <users>
-            <user>buser@r.com</user>
-        </users>
+
     </queueMembers>
     <queueSobject>
         <sobjectType>Lead</sobjectType>
