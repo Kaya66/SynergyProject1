@@ -8,10 +8,19 @@
         <members>PricebookEntry</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
-        <members>Opportunity</member>
+        <members>Opportunity</members>
         <members>Contact</members>
-        <members>Account</member>
+        <members>Account</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>CaseQue</members>
+        <members>Escalation_Que</members>
+        <members>ExecQue</members>
+        <members>LeadEscalationQue</members>
+        <members>LeadQue</members>
+        <members>Manager_Que</members>
+        <name>Queue</name>
     </types>
 
     <types>

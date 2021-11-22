@@ -11,5 +11,3 @@ public with sharing class createOppsFromAcc {
         insert newOps;
     }
 }
-
-
